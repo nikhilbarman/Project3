@@ -28,6 +28,7 @@
                 <li><a href="#food-menu">Menu</a></li>
                 <li><a href="#testimonials">Testimonial</a></li>
                 <li><a href="#contact">Contact Us</a></li>
+                <li><a href="index1.html">Login</a></li>
             </ul>
             <h1 class="logo">FB</h1>
         </div>
@@ -106,7 +107,7 @@
                     <div class="food-description">
                         <h2 class="food-title">Lacinato Kale</h2>
                         <p>Italian Dish loaded with essential vitamins and minerals.</p>
-                        <p class="food-price">Price: &#8377;250</p>
+                        <p class="food-price">Price Range: &#8377;550-&#8377;250</p>
                     </div>
                 </div>
                 <div class="food-menu-item">
@@ -116,7 +117,7 @@
                     <div class="food-description">
                         <h2 class="food-title">Banana Yogurt</h2>
                         <p>Yogurt Contains high protein, calcium, vitamins and live culture.</p>
-                        <p class="food-price">Price: &#8377;300</p>
+                        <p class="food-price">Price Range: &#8377;600-&#8377;300</p>
                     </div>
                 </div>
                 <div class="food-menu-item">
@@ -126,7 +127,7 @@
                     <div class="food-description">
                         <h2 class="food-title">Avocados Spinch</h2>
                         <p>Avocados are a source of vitamins C, E, k and B6.</p>
-                        <p class="food-price">Price: &#8377;450</p>
+                        <p class="food-price">Price Range: &#8377;450-&#8377;300</p>
                     </div>
                 </div>
                 <div class="food-menu-item">
@@ -136,7 +137,7 @@
                     <div class="food-description">
                         <h2 class="food-title">Organic Vegetables</h2>
                         <p>Organic Vegetables do not contain toxic substances. The body's Immunity is also boost up.</p>
-                        <p class="food-price">Price: &#8377;500</p>
+                        <p class="food-price">Price Range: &#8377;500-&#8377;200</p>
                     </div>
                 </div>
                 <div class="food-menu-item">
@@ -146,7 +147,7 @@
                     <div class="food-description">
                         <h2 class="food-title">Frozen Organic Berries</h2>
                         <p>Frozen organic barries are juicy, rounded, brightly colored, or sweet.</p>
-                        <p class="food-price">Price: &#8377;150</p>
+                        <p class="food-price">Price Range: &#8377;450-&#8377;350</p>
                     </div>
                 </div>
                 <div class="food-menu-item">
@@ -156,7 +157,7 @@
                     <div class="food-description">
                         <h2 class="food-title">Stawberries</h2>
                         <p>Stawberries are packed with vitamins, fiber and perticularly high level of antioxidants. </p>
-                        <p class="food-price">Price: &#8377;200</p>
+                        <p class="food-price">Price Range: &#8377;400-&#8377;200</p>
                     </div>
                 </div>
             </div>
@@ -221,12 +222,14 @@
                 <img src="./img/restraunt-image.jpg" alt="">
             </div>
             <div class="form-container">
+                <form action="/contactus" method="POST">
                 <h2>Contact Us</h2>
-                <input type="text" name="" id="" placeholder="Name">
-                <input type="email" name="" id="" placeholder="E-Mail">
-                <input type="text" name="" id="" placeholder="Phone No.">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Type your message and reviews here..."></textarea>
-                <a href="#" class="btn btn-primary">Submit</a>
+                <input type="text" name="fname" id="" placeholder="Name">
+                <input type="email" name="email" id="" placeholder="E-Mail">
+                <input type="number" name="phone" id="" placeholder="Phone No.">
+                <textarea name="text" id="" cols="30" rows="10" placeholder="Type your message and reviews here..."></textarea>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
             </div>
         </div>
     </section>
